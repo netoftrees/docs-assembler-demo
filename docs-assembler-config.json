@@ -2,10 +2,10 @@
     "organisation": "netoftrees",
     "contact": "team@netoftrees.com",
     "gitConfig": {
-        "owner": "MuddySpud",
-        "repo": "MuddySpud.github.io",
-        "branch": "master",
-        "publishUrl": "https://MuddySpud.github.io/"
+        "owner": "netoftrees",
+        "repo": "docs-assembler-demo",
+        "branch": "main",
+        "publishUrl": "https://netoftrees.github.io/docs-assembler-demo/"
     },
     "repoConfig": {
         "assetFolderName": "δ steps",
