@@ -9,7 +9,8 @@ markdown_ext: markdown,tsfrg,tsgde,md
 #   - scope:
 #       path: "" # Empty string for all files
 #     values:
-#       layout: "simple"
+#       layout: "simple" 
+##
       
 # Disable all caching
 disable_disk_cache: true
