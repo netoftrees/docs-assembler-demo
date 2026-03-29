@@ -14,15 +14,8 @@ fragsFolderPath: index_frags
 
 # Escape Documentation Hell
 
-[Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) is a text editor for authoring documentation. It is specifically designed for - eliminating duplication - documenting intricate systems - and complex troubleshooting. All scenarios where traditional documentation fails. 
 
-Text is built from reusable content parts. If you change a part, it updates everywhere. 
-
-There is no lock‑in - it publishes to plain Markdown files, so you can uninstall [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) and continue working with your files as before.
-
-This website is a guide built with [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler). The 'Vertical Kitchen Garden Planner' below, is a component embedded within it to give an idea of the complexity these guides can manage.
-
-## We think in webs, yet we're sentenced to lines
+## We think in webs, yet are sentenced to lines...
 
 Human knowledge branches, loops, and layers - a living web of what-ifs, dependencies, and context. Yet we've had no way to pour this networked thinking onto paper. Traditional documents force us to flatten complexity into linear prose, losing the very structure that makes expertise usable.
 

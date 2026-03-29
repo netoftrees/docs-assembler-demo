@@ -10,8 +10,11 @@ markdown_ext: markdown,tsfrg,tsgde,md
 #       path: "" # Empty string for all files
 #     values:
 #       layout: "simple" 
-##
-##
-      
 
+      
+# Disable all caching
+disable_disk_cache: true
+
+# Or more specific cache controls
+full_rebuild: true
 
