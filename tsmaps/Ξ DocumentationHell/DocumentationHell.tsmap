@@ -5,7 +5,7 @@
     "created": "2025-08-29T18:47:04.477Z",
     "list": true,
     "publishFileName": "DocumentationHell",
-    "cachedPath": "d:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Ξ DocumentationHell/DocumentationHell.tsmap",
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/Ξ DocumentationHell/DocumentationHell.tsmap",
     "iText": "Link  to 'DocumentationHell' ",
     "___rΩΩt___": {
         "key": "sIi16r00h6",
@@ -38,8 +38,26 @@
                                                                 "key": "u4eeh600MG",
                                                                 "order": 1,
                                                                 "option": "See the Networks in Action",
-                                                                "isLeaf": true,
-                                                                "iKey": "u5gguY01On"
+                                                                "iKey": "u5gguY01On",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "1D3tSg000WS",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "iKey": "yd9vwR005i",
+                                                                        "iExitKey": "1D3tHTQ00KW",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "1D3tpgo01eq",
+                                                                                "order": 1,
+                                                                                "option": "Next",
+                                                                                "sharedAssetKey": "1D3trb4022L",
+                                                                                "isLeaf": true,
+                                                                                "iExitKey": "1D3tf3p00Mu"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
                                                             },
                                                             {
                                                                 "key": "uqem6A02Wl",
@@ -65,8 +83,17 @@
                                                                                                     {
                                                                                                         "key": "u51rKe01DX",
                                                                                                         "order": 1,
-                                                                                                        "isLeaf": true,
-                                                                                                        "iKey": "u5gguY01On"
+                                                                                                        "iKey": "u5gguY01On",
+                                                                                                        "nodes": [
+                                                                                                            {
+                                                                                                                "key": "1D3u3sh00ZE",
+                                                                                                                "order": 1,
+                                                                                                                "option": "Next",
+                                                                                                                "sharedAssetKey": "1D3u5Ba02M6",
+                                                                                                                "isLeaf": true,
+                                                                                                                "iExitKey": "1D3tHTQ00KW"
+                                                                                                            }
+                                                                                                        ]
                                                                                                     },
                                                                                                     {
                                                                                                         "key": "u4z5G702Xs",
@@ -215,11 +242,25 @@
         {
             "key": "δ-18yfiNb00KM",
             "relativePath": "./δ steps/δ-18yfiNb00KM.tsstp"
+        },
+        {
+            "key": "δ-1D3tSg000WS",
+            "relativePath": "./δ steps/δ-1D3tSg000WS.tsstp"
+        },
+        {
+            "key": "1D3trb4022L",
+            "relativePath": "../shared/dividingStars.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "1D3u5Ba02M6",
+            "relativePath": "../shared/dividingStars.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "18yoWfp01Fp",
-        "editorID": "car_fa132fb5a81540969c07e3865b6cebf2",
-        "ticks": 1771773520401
+        "id": "1D3u6XJ01nd",
+        "editorID": "car_ff6d01706bf34570a7bb3593fd106a48",
+        "ticks": 1775513262905
     }
 }

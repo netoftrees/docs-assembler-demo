@@ -4,8 +4,15 @@
     "name": "Garden",
     "created": "2025-07-30T11:55:08.690Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Ξ Garden/Garden.tsmap",
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/LuSenlinTech/space/Ξ Garden/Garden.tsmap",
     "iText": "Link to 'Garden'",
+    "iExits": [
+        {
+            "key": "1D3ukEe006u",
+            "text": "Next",
+            "order": 1
+        }
+    ],
     "___rΩΩt___": {
         "key": "s7LPlH1pM",
         "nodes": [
@@ -18,17 +25,33 @@
                         "key": "ytCYcq01Eo",
                         "order": 1,
                         "option": "Has power supply",
-                        "isLeaf": true,
                         "iKey": "yjFhSI02KP",
-                        "iExitKey": "s7SMXt1dV"
+                        "iExitKey": "s7SMXt1dV",
+                        "nodes": [
+                            {
+                                "key": "1D3ugB000LT",
+                                "order": 1,
+                                "option": "Next",
+                                "iExitKey": "1D3sYq300fM",
+                                "exitKey": "1D3ukEe006u"
+                            }
+                        ]
                     },
                     {
                         "key": "ytCYcq00fc",
                         "order": 2,
                         "option": "No power supply",
-                        "isLeaf": true,
                         "iKey": "yjFhSI02KP",
-                        "iExitKey": "s7SMXt0Xu"
+                        "iExitKey": "s7SMXt0Xu",
+                        "nodes": [
+                            {
+                                "key": "1D3uiWp000W",
+                                "order": 1,
+                                "option": "Next",
+                                "iExitKey": "1D3sYq300fM",
+                                "exitKey": "1D3ukEe006u"
+                            }
+                        ]
                     }
                 ]
             }
@@ -53,8 +76,8 @@
         }
     ],
     "___εdit___": {
-        "id": "ytCicv00Pl",
-        "editorID": "car_482e63cc77ad4e39a4704aec3c7fa7b2",
-        "ticks": 1762529299885
+        "id": "1D3um1S00r2",
+        "editorID": "car_6724677071ad4684af537df020cde057",
+        "ticks": 1775513422378
     }
 }

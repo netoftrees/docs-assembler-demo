@@ -4,8 +4,15 @@
     "name": "Conclusion",
     "created": "2025-11-04T21:36:54.707Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/Ξ Conclusion/Conclusion.tsmap",
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/Technical/Ξ Conclusion/Conclusion.tsmap",
     "iText": "Link to 'Conclusion'",
+    "iExits": [
+        {
+            "key": "1D3tf3p00Mu",
+            "text": "Next",
+            "order": 1
+        }
+    ],
     "___rΩΩt___": {
         "key": "yoJ9qV00lx",
         "isHeadless": true,
@@ -23,12 +30,20 @@
                             {
                                 "key": "z5kz4A01RX",
                                 "order": 1,
+                                "sharedAssetKey": "1D3rkIo00hP",
                                 "newFragment": true,
                                 "nodes": [
                                     {
                                         "key": "z5PrhD00aV",
                                         "order": 1,
-                                        "isLeaf": true
+                                        "nodes": [
+                                            {
+                                                "key": "1D3tblz01xP",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "exitKey": "1D3tf3p00Mu"
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -48,8 +63,9 @@
             "relativePath": "./δ steps/δ-z5PrhD00aV.tsstp"
         },
         {
-            "key": "δ-z5kz4A01RX",
-            "relativePath": "./δ steps/δ-z5kz4A01RX.tsstp"
+            "key": "1D3rkIo00hP",
+            "relativePath": "../../shared/dividingStars.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-yoK4TH01wR",
@@ -57,8 +73,8 @@
         }
     ],
     "___εdit___": {
-        "id": "z6zFr102Km",
-        "editorID": "car_f283eb38ea17459b8f161e377e6614d9",
-        "ticks": 1762732959723
+        "id": "1D3tipp00zN",
+        "editorID": "car_0b37cf035a1d45f2a3bf8e967dc501b6",
+        "ticks": 1775513171797
     }
 }

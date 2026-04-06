@@ -4,8 +4,15 @@
     "name": "Balcony",
     "created": "2025-07-30T11:54:19.553Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Ξ Balcony/Balcony.tsmap",
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/LuSenlinTech/space/Ξ Balcony/Balcony.tsmap",
     "iText": "Link to 'Balcony'",
+    "iExits": [
+        {
+            "key": "1D3suVA01KD",
+            "text": "Next",
+            "order": 1
+        }
+    ],
     "___rΩΩt___": {
         "key": "yhJqMu02OH",
         "nodes": [
@@ -18,17 +25,33 @@
                         "key": "s7LPkv17x",
                         "order": 1,
                         "option": "Has power supply",
-                        "isLeaf": true,
                         "iKey": "yjFhSI02KP",
-                        "iExitKey": "s7SMXt1dV"
+                        "iExitKey": "s7SMXt1dV",
+                        "nodes": [
+                            {
+                                "key": "1D3soYM00mi",
+                                "order": 1,
+                                "option": "Next",
+                                "iExitKey": "1D3sYq300fM",
+                                "exitKey": "1D3suVA01KD"
+                            }
+                        ]
                     },
                     {
                         "key": "s7LPkv17x1",
                         "order": 2,
                         "option": "No power supply",
-                        "isLeaf": true,
                         "iKey": "yjFhSI02KP",
-                        "iExitKey": "s7SMXt0Xu"
+                        "iExitKey": "s7SMXt0Xu",
+                        "nodes": [
+                            {
+                                "key": "1D3ss5P00t3",
+                                "order": 1,
+                                "option": "Next",
+                                "iExitKey": "1D3sYq300fM",
+                                "exitKey": "1D3suVA01KD"
+                            }
+                        ]
                     }
                 ]
             }
@@ -53,8 +76,8 @@
         }
     ],
     "___εdit___": {
-        "id": "yjHqNp0148",
-        "editorID": "car_242a069b1877413db3b64d417a9793a7",
-        "ticks": 1762382757981
+        "id": "1D3swTi01D8",
+        "editorID": "car_b8bccedd6b7f4e17854bc918ac030900",
+        "ticks": 1775512985914
     }
 }

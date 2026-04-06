@@ -4,8 +4,15 @@
     "name": "SunlitRoom",
     "created": "2025-08-04T09:16:20.801Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Ξ SunlitRoom/SunlitRoom.tsmap",
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/LuSenlinTech/space/Ξ SunlitRoom/SunlitRoom.tsmap",
     "iText": "Link to 'SunlitRoom'",
+    "iExits": [
+        {
+            "key": "1D3vRMc01nu",
+            "text": "Next",
+            "order": 1
+        }
+    ],
     "___rΩΩt___": {
         "key": "s7LPoI0pM",
         "nodes": [
@@ -18,9 +25,17 @@
                         "key": "ytOLyU01vz",
                         "order": 1,
                         "option": "Has power supply",
-                        "isLeaf": true,
                         "iKey": "yjFhSI02KP",
-                        "iExitKey": "ytLNSq01qu"
+                        "iExitKey": "ytLNSq01qu",
+                        "nodes": [
+                            {
+                                "key": "1D3vO1h02AL",
+                                "order": 1,
+                                "option": "Next",
+                                "iExitKey": "1D3sYq300fM",
+                                "exitKey": "1D3vRMc01nu"
+                            }
+                        ]
                     },
                     {
                         "key": "ytOLyV015a",
@@ -31,8 +46,16 @@
                             {
                                 "key": "ytTOgV02Mz",
                                 "order": 1,
-                                "isLeaf": true,
-                                "iKey": "yjFhSI02KP"
+                                "iKey": "yjFhSI02KP",
+                                "nodes": [
+                                    {
+                                        "key": "1D3vQSs02RN",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "iExitKey": "1D3sYq300fM",
+                                        "exitKey": "1D3vRMc01nu"
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -63,8 +86,8 @@
         }
     ],
     "___εdit___": {
-        "id": "ytTffc01qo",
-        "editorID": "car_591255aaaf0a4772b064f2cff8d12825",
-        "ticks": 1762533340096
+        "id": "1D3vT9g01mw",
+        "editorID": "car_fbbe3df09ef241af92fb17d5655b11ed",
+        "ticks": 1775513588180
     }
 }

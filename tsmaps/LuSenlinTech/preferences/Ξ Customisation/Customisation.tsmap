@@ -4,8 +4,15 @@
     "name": "Customisation",
     "created": "2025-11-05T22:37:27.006Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/preferences/Ξ Customisation/Customisation.tsmap",
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/LuSenlinTech/preferences/Ξ Customisation/Customisation.tsmap",
     "iText": "Link to 'Customisation'",
+    "iExits": [
+        {
+            "key": "1D3sYq300fM",
+            "text": "Next",
+            "order": 1
+        }
+    ],
     "___rΩΩt___": {
         "key": "yjFk09012A",
         "iKey": "s7LPr60IG",
@@ -38,9 +45,8 @@
                                                 "key": "yjGsUW014q",
                                                 "order": 1,
                                                 "option": "Next",
-                                                "isLeaf": true,
-                                                "iKey": "yd9vwR005i",
-                                                "iExitKey": "s7SMOZ0VN"
+                                                "iExitKey": "s7SMOZ0VN",
+                                                "exitKey": "1D3sYq300fM"
                                             }
                                         ]
                                     }
@@ -62,9 +68,8 @@
                                                 "key": "yjH5Sr00A7",
                                                 "order": 1,
                                                 "option": "Next",
-                                                "isLeaf": true,
-                                                "iKey": "yd9vwR005i",
-                                                "iExitKey": "s7SMOZ0VN"
+                                                "iExitKey": "s7SMOZ0VN",
+                                                "exitKey": "1D3sYq300fM"
                                             }
                                         ]
                                     }
@@ -86,9 +91,8 @@
                                                 "key": "11j0hVG01YQ",
                                                 "order": 1,
                                                 "option": "Next",
-                                                "isLeaf": true,
-                                                "iKey": "yd9vwR005i",
-                                                "iExitKey": "uXcsWB01pQ"
+                                                "iExitKey": "uXcsWB01pQ",
+                                                "exitKey": "1D3sYq300fM"
                                             }
                                         ]
                                     }
@@ -134,29 +138,17 @@
             "relativePath": "./δ steps/δ-yjGfDg0014.tsstp"
         },
         {
-            "key": "δ-yjGsUW014q",
-            "relativePath": "./δ steps/δ-yjGsUW014q.tsstp"
-        },
-        {
             "key": "δ-yjH0E400bC",
             "relativePath": "./δ steps/δ-yjH0E400bC.tsstp"
         },
         {
-            "key": "δ-yjH5Sr00A7",
-            "relativePath": "./δ steps/δ-yjH5Sr00A7.tsstp"
-        },
-        {
             "key": "δ-yjHCZr01WL",
             "relativePath": "./δ steps/δ-yjHCZr01WL.tsstp"
-        },
-        {
-            "key": "δ-11j0hVG01YQ",
-            "relativePath": "./δ steps/δ-11j0hVG01YQ.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "11j0sKM00ov",
-        "editorID": "car_265a73c161744f8f9a96f5a84c8e0d84",
-        "ticks": 1765127112374
+        "id": "1D3sdZn020b",
+        "editorID": "car_369b3e134bde49e6af08fdc4d0a132ec",
+        "ticks": 1775512913255
     }
 }

@@ -4,8 +4,15 @@
     "name": "DemoIntroduction",
     "created": "2025-09-17T18:18:15.002Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/Ξ DemoIntroduction/DemoIntroduction.tsmap",
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/Technical/Ξ DemoIntroduction/DemoIntroduction.tsmap",
     "iText": "Link to 'DemoIntroduction'",
+    "iExits": [
+        {
+            "key": "1D3tHTQ00KW",
+            "text": "Next",
+            "order": 1
+        }
+    ],
     "___rΩΩt___": {
         "key": "u5gkFx00HL",
         "nodes": [
@@ -13,8 +20,16 @@
                 "key": "u5gpCU01mT",
                 "order": 1,
                 "option": "Start the demo",
-                "isLeaf": true,
-                "iKey": "s7SMNM05c"
+                "iKey": "s7SMNM05c",
+                "nodes": [
+                    {
+                        "key": "1D3tGQE014f",
+                        "order": 1,
+                        "option": "Next",
+                        "iExitKey": "1D3t8oV00Hi",
+                        "exitKey": "1D3tHTQ00KW"
+                    }
+                ]
             }
         ]
     },
@@ -29,8 +44,8 @@
         }
     ],
     "___εdit___": {
-        "id": "yS6XIF029U",
-        "editorID": "car_96ee792b95624eda92ce76e94db16c25",
-        "ticks": 1762128865279
+        "id": "1D3tIp200tf",
+        "editorID": "car_1a4fa5439ee44274b081fed2488c68a7",
+        "ticks": 1775513071804
     }
 }

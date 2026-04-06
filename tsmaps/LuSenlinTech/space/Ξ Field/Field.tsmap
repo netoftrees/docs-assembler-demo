@@ -4,11 +4,25 @@
     "name": "Field",
     "created": "2025-07-30T11:56:45.174Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Ξ Field/Field.tsmap",
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/LuSenlinTech/space/Ξ Field/Field.tsmap",
     "iText": "Link to 'Field'",
+    "iExits": [
+        {
+            "key": "1D3verI00nJ",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
     "___rΩΩt___": {
         "key": "s7LPnd22w",
-        "isLeaf": true
+        "nodes": [
+            {
+                "key": "1D3vdao00na",
+                "order": 1,
+                "option": "Next",
+                "exitKey": "1D3verI00nJ"
+            }
+        ]
     },
     "___αssεts___": [
         {
@@ -17,8 +31,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xm0KtY0ZG",
-        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
-        "ticks": 1761506781541
+        "id": "1D3vgCI01zU",
+        "editorID": "car_26ced4e60a204673a7ef5e5bab346985",
+        "ticks": 1775513638314
     }
 }

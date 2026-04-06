@@ -4,8 +4,15 @@
     "name": "WindowlessRoom",
     "created": "2025-07-30T11:55:22.901Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Ξ WindowlessRoom/WindowlessRoom.tsmap",
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/LuSenlinTech/space/Ξ WindowlessRoom/WindowlessRoom.tsmap",
     "iText": "Link to 'WindowlessRoom'",
+    "iExits": [
+        {
+            "key": "1D3v8a3028o",
+            "text": "Next",
+            "order": 1
+        }
+    ],
     "___rΩΩt___": {
         "key": "s7SMNu0ct",
         "nodes": [
@@ -18,9 +25,17 @@
                         "key": "ytOX7H00H0",
                         "order": 1,
                         "option": "Has power supply",
-                        "isLeaf": true,
                         "iKey": "yjFhSI02KP",
-                        "iExitKey": "ytLNSq01qu"
+                        "iExitKey": "ytLNSq01qu",
+                        "nodes": [
+                            {
+                                "key": "1D3v2S402Rj",
+                                "order": 1,
+                                "option": "Next",
+                                "iExitKey": "1D3sYq300fM",
+                                "exitKey": "1D3v8a3028o"
+                            }
+                        ]
                     },
                     {
                         "key": "ytOX7H01EL",
@@ -31,8 +46,16 @@
                             {
                                 "key": "ytT6AX023T",
                                 "order": 1,
-                                "isLeaf": true,
-                                "iKey": "yjFhSI02KP"
+                                "iKey": "yjFhSI02KP",
+                                "nodes": [
+                                    {
+                                        "key": "1D3v5Er00Sd",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "iExitKey": "1D3sYq300fM",
+                                        "exitKey": "1D3v8a3028o"
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -63,8 +86,8 @@
         }
     ],
     "___εdit___": {
-        "id": "ytTAbW01iN",
-        "editorID": "car_f25f95109dd8498880e19ffd2e0d8465",
-        "ticks": 1762533220678
+        "id": "1D3vATe00T2",
+        "editorID": "car_9e22b8d4096d457ca81ab7fcf0671c91",
+        "ticks": 1775513516382
     }
 }
