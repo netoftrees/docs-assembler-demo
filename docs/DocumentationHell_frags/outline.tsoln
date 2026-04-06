@@ -3,63 +3,18 @@
     "v": "1",
     "r": {
         "i": "sIi16r00h6",
+        "c": 0,
         "o": [
             {
-                "i": "u4eeh600MG",
-                "c": 0
-            },
-            {
-                "i": "uqem6A02Wl",
-                "o": [
-                    {
-                        "i": "u4z15g02aS",
-                        "o": [
-                            {
-                                "i": "u519GF00X2",
-                                "o": [
-                                    {
-                                        "i": "u51rKe01DX",
-                                        "c": 0
-                                    },
-                                    {
-                                        "i": "u4z5G702Xs",
-                                        "o": [
-                                            {
-                                                "i": "u4zC7x006Y",
-                                                "o": [
-                                                    {
-                                                        "i": "u4zYPX00A6"
-                                                    },
-                                                    {
-                                                        "i": "u4zf7f0076"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "i": "u5ZOcJ01h6",
-                                "c": 1
-                            }
-                        ]
-                    },
-                    {
-                        "i": "v6E9BE01nK"
-                    }
-                ]
+                "i": "1D3xHhV01Ph",
+                "x": "1D3wjIz02GN"
             }
         ]
     },
     "c": [
         {
-            "i": "u5gguY01On",
-            "p": "Technical/DemoIntroduction_frags"
-        },
-        {
-            "i": "u5Yi1402Vi",
-            "p": "Technical/Hallucinations_frags"
+            "i": "1D3x36e00uG",
+            "p": "Technical/DocumentationHellContents_frags"
         }
     ],
     "e": 0

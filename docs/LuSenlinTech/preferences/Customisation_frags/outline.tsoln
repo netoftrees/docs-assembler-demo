@@ -18,7 +18,7 @@
                             {
                                 "i": "yjGsUW014q",
                                 "x": "s7SMOZ0VN",
-                                "c": 3
+                                "_x": "1D3sYq300fM"
                             }
                         ]
                     },
@@ -30,19 +30,19 @@
                             {
                                 "i": "yjH5Sr00A7",
                                 "x": "s7SMOZ0VN",
-                                "c": 3
+                                "_x": "1D3sYq300fM"
                             }
                         ]
                     },
                     {
                         "i": "yjGbkW02WR",
                         "x": "s7LPoO2Y3",
-                        "c": 4,
+                        "c": 3,
                         "o": [
                             {
                                 "i": "11j0hVG01YQ",
                                 "x": "uXcsWB01pQ",
-                                "c": 3
+                                "_x": "1D3sYq300fM"
                             }
                         ]
                     }
@@ -64,15 +64,11 @@
             "p": "LuSenlinTech/equipment/FrameTower_frags"
         },
         {
-            "i": "yd9vwR005i",
-            "p": "Technical/Conclusion_frags"
-        },
-        {
             "i": "uXEN9G00lv",
             "p": "LuSenlinTech/equipment/CustomFrameTower_frags"
         }
     ],
-    "e": 0,
+    "e": 1,
     "mv": {
         "spaceDisplayText": "space"
     }

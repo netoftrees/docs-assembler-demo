@@ -8,12 +8,26 @@
             {
                 "i": "ytOX7H00H0",
                 "x": "ytLNSq01qu",
-                "c": 1
+                "c": 1,
+                "o": [
+                    {
+                        "i": "1D3v2S402Rj",
+                        "x": "1D3sYq300fM",
+                        "_x": "1D3v8a3028o"
+                    }
+                ]
             },
             {
                 "i": "ytOX7H01EL",
                 "x": "ytLP1Q00bO",
-                "c": 1
+                "c": 1,
+                "o": [
+                    {
+                        "i": "1D3v5Er00Sd",
+                        "x": "1D3sYq300fM",
+                        "_x": "1D3v8a3028o"
+                    }
+                ]
             }
         ]
     },
@@ -27,7 +41,7 @@
             "p": "LuSenlinTech/preferences/Customisation_frags"
         }
     ],
-    "e": 0,
+    "e": 1,
     "mv": {
         "spaceDisplayText": "in your windowless room"
     }
