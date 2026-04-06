@@ -14,7 +14,6 @@
             {
                 "key": "1D3xHhV01Ph",
                 "order": 1,
-                "option": "Next",
                 "sharedAssetKey": "1D3xIpW017f",
                 "isLeaf": true,
                 "iExitKey": "1D3wjIz02GN"
@@ -33,8 +32,8 @@
         }
     ],
     "___εdit___": {
-        "id": "1D3xKQJ01qd",
-        "editorID": "car_ff6d01706bf34570a7bb3593fd106a48",
-        "ticks": 1775514031271
+        "id": "1D43KeH00Ss",
+        "editorID": "me_d973de631c7c434390e2cc0c6b678670",
+        "ticks": 1775515462105
     }
 }
