@@ -1,5 +1,5 @@
 {
-    "key": "1D3x36e00uG",
+    "key": "1D3x36e00uG ",
     "token": "Documentationhellcontents",
     "name": "DocumentationHellContents",
     "created": "2026-04-06T22:19:57.878Z",
@@ -95,8 +95,17 @@
                                                                                                                 "key": "1D3u3sh00ZE",
                                                                                                                 "order": 1,
                                                                                                                 "option": "Next",
+                                                                                                                "iKey": "yd9vwR005i",
                                                                                                                 "iExitKey": "1D3tHTQ00KW",
-                                                                                                                "exitKey": "1D3wjIz02GN"
+                                                                                                                "nodes": [
+                                                                                                                    {
+                                                                                                                        "key": "1D3zeJ600Ta",
+                                                                                                                        "order": 1,
+                                                                                                                        "option": "Next",
+                                                                                                                        "iExitKey": "1D3tf3p00Mu",
+                                                                                                                        "exitKey": "1D3wjIz02GN"
+                                                                                                                    }
+                                                                                                                ]
                                                                                                             }
                                                                                                         ]
                                                                                                     },
@@ -251,11 +260,15 @@
         {
             "key": "δ-1D3tSg000WS",
             "relativePath": "./δ steps/δ-1D3tSg000WS.tsstp"
+        },
+        {
+            "key": "δ-1D3u3sh00ZE",
+            "relativePath": "./δ steps/δ-1D3u3sh00ZE.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "1D3wlO802Xj",
-        "editorID": "car_c2f471eb739c47149eb4fac6ab4206e2",
-        "ticks": 1775513896596
+        "id": "1D3zfgs01fZ",
+        "editorID": "car_11d8b171b7c045faad3bffc96da89e96",
+        "ticks": 1775514589678
     }
 }
