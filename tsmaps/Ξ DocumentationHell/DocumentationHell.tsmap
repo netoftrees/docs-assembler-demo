@@ -1,0 +1,39 @@
+{
+    "key": "sIhxfx02EB  ",
+    "token": "Documentationhell",
+    "name": "DocumentationHell",
+    "created": "2025-08-29T18:47:04.477Z",
+    "list": true,
+    "publishFileName": "DocumentationHell",
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/Ξ DocumentationHell/DocumentationHell.tsmap",
+    "iText": "Link  to 'DocumentationHell' ",
+    "___rΩΩt___": {
+        "key": "sIi16r00h6",
+        "iKey": "1D3x36e00uG",
+        "nodes": [
+            {
+                "key": "1D3xHhV01Ph",
+                "order": 1,
+                "sharedAssetKey": "1D3xIpW017f",
+                "isLeaf": true,
+                "iExitKey": "1D3wjIz02GN"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-sIi16r00h6",
+            "relativePath": "./δ steps/δ-sIi16r00h6.tsstp"
+        },
+        {
+            "key": "1D3xIpW017f",
+            "relativePath": "../shared/dividingStars.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "1D43KeH00Ss",
+        "editorID": "me_d973de631c7c434390e2cc0c6b678670",
+        "ticks": 1775515462105
+    }
+}

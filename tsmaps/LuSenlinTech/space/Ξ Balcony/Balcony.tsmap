@@ -1,0 +1,83 @@
+{
+    "key": "s7LPkv1Gh   ",
+    "token": "Balcony",
+    "name": "Balcony",
+    "created": "2025-07-30T11:54:19.553Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/LuSenlinTech/space/Ξ Balcony/Balcony.tsmap",
+    "iText": "Link to 'Balcony'",
+    "iExits": [
+        {
+            "key": "1D3suVA01KD",
+            "text": "Next",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "yhJqMu02OH",
+        "nodes": [
+            {
+                "key": "yhPSyA00ua",
+                "order": 1,
+                "iKey": "s7SMXt0ol",
+                "nodes": [
+                    {
+                        "key": "s7LPkv17x",
+                        "order": 1,
+                        "option": "Has power supply",
+                        "iKey": "yjFhSI02KP",
+                        "iExitKey": "s7SMXt1dV",
+                        "nodes": [
+                            {
+                                "key": "1D3soYM00mi",
+                                "order": 1,
+                                "option": "Next",
+                                "iExitKey": "1D3sYq300fM",
+                                "exitKey": "1D3suVA01KD"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "s7LPkv17x1",
+                        "order": 2,
+                        "option": "No power supply",
+                        "iKey": "yjFhSI02KP",
+                        "iExitKey": "s7SMXt0Xu",
+                        "nodes": [
+                            {
+                                "key": "1D3ss5P00t3",
+                                "order": 1,
+                                "option": "Next",
+                                "iExitKey": "1D3sYq300fM",
+                                "exitKey": "1D3suVA01KD"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7LPkv17x",
+            "relativePath": "./δ steps/δ-s7LPkv17x.tsstp"
+        },
+        {
+            "key": "δ-yhJqMu02OH",
+            "relativePath": "./δ steps/δ-yhJqMu02OH.tsstp"
+        },
+        {
+            "key": "δ-yhPSyA00ua",
+            "relativePath": "./δ steps/δ-yhPSyA00ua.tsstp"
+        },
+        {
+            "key": "δ-s7LPkv17x1",
+            "relativePath": "./δ steps/δ-s7LPkv17x1.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "1D3swTi01D8",
+        "editorID": "car_b8bccedd6b7f4e17854bc918ac030900",
+        "ticks": 1775512985914
+    }
+}

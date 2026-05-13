@@ -1,0 +1,93 @@
+{
+    "key": "s7LPoI1Jr   ",
+    "token": "Sunlitroom",
+    "name": "SunlitRoom",
+    "created": "2025-08-04T09:16:20.801Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/LuSenlinTech/space/Ξ SunlitRoom/SunlitRoom.tsmap",
+    "iText": "Link to 'SunlitRoom'",
+    "iExits": [
+        {
+            "key": "1D3vRMc01nu",
+            "text": "Next",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "s7LPoI0pM",
+        "nodes": [
+            {
+                "key": "ytEKrr01ga",
+                "order": 1,
+                "iKey": "ytJKIf021t",
+                "nodes": [
+                    {
+                        "key": "ytOLyU01vz",
+                        "order": 1,
+                        "option": "Has power supply",
+                        "iKey": "yjFhSI02KP",
+                        "iExitKey": "ytLNSq01qu",
+                        "nodes": [
+                            {
+                                "key": "1D3vO1h02AL",
+                                "order": 1,
+                                "option": "Next",
+                                "iExitKey": "1D3sYq300fM",
+                                "exitKey": "1D3vRMc01nu"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "ytOLyV015a",
+                        "order": 2,
+                        "option": "No power supply",
+                        "iExitKey": "ytLP1Q00bO",
+                        "nodes": [
+                            {
+                                "key": "ytTOgV02Mz",
+                                "order": 1,
+                                "iKey": "yjFhSI02KP",
+                                "nodes": [
+                                    {
+                                        "key": "1D3vQSs02RN",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "iExitKey": "1D3sYq300fM",
+                                        "exitKey": "1D3vRMc01nu"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7LPoI0pM",
+            "relativePath": "./δ steps/δ-s7LPoI0pM.tsstp"
+        },
+        {
+            "key": "δ-ytEKrr01ga",
+            "relativePath": "./δ steps/δ-ytEKrr01ga.tsstp"
+        },
+        {
+            "key": "δ-ytOLyU01vz",
+            "relativePath": "./δ steps/δ-ytOLyU01vz.tsstp"
+        },
+        {
+            "key": "δ-ytOLyV015a",
+            "relativePath": "./δ steps/δ-ytOLyV015a.tsstp"
+        },
+        {
+            "key": "δ-ytTOgV02Mz",
+            "relativePath": "./δ steps/δ-ytTOgV02Mz.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "1D3vT9g01mw",
+        "editorID": "car_fbbe3df09ef241af92fb17d5655b11ed",
+        "ticks": 1775513588180
+    }
+}

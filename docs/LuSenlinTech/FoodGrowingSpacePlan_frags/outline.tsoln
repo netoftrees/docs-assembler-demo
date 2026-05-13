@@ -1,0 +1,95 @@
+{
+    "g": "s7SMNM05c",
+    "v": "1",
+    "r": {
+        "i": "s7SMNM0Om",
+        "o": [
+            {
+                "i": "s7SMNM1VG",
+                "o": [
+                    {
+                        "i": "s7SMNM0ZL",
+                        "c": 0,
+                        "o": [
+                            {
+                                "i": "1D3t6q9011g",
+                                "x": "1D3suVA01KD",
+                                "_x": "1D3t8oV00Hi"
+                            }
+                        ]
+                    },
+                    {
+                        "i": "s7SMNM2ZU",
+                        "c": 1,
+                        "o": [
+                            {
+                                "i": "1D3usP402Ya",
+                                "x": "1D3ukEe006u",
+                                "_x": "1D3t8oV00Hi"
+                            }
+                        ]
+                    },
+                    {
+                        "i": "s7SMNM0bU",
+                        "c": 2,
+                        "o": [
+                            {
+                                "i": "1D3vGKU00f7",
+                                "x": "1D3v8a3028o",
+                                "_x": "1D3t8oV00Hi"
+                            }
+                        ]
+                    },
+                    {
+                        "i": "s7SMNM012",
+                        "c": 3,
+                        "o": [
+                            {
+                                "i": "1D3vYOk01g6",
+                                "x": "1D3vRMc01nu",
+                                "_x": "1D3t8oV00Hi"
+                            }
+                        ]
+                    },
+                    {
+                        "i": "s7SMNM04k",
+                        "c": 4,
+                        "o": [
+                            {
+                                "i": "1D3vkZy028v",
+                                "x": "1D3verI00nJ",
+                                "_x": "1D3t8oV00Hi"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "i": "s7SMNM0bC"
+            }
+        ]
+    },
+    "c": [
+        {
+            "i": "s7LPkv1Gh",
+            "p": "LuSenlinTech/space/Balcony_frags"
+        },
+        {
+            "i": "s7LPlH16Y",
+            "p": "LuSenlinTech/space/Garden_frags"
+        },
+        {
+            "i": "s7SMNu079",
+            "p": "LuSenlinTech/space/WindowlessRoom_frags"
+        },
+        {
+            "i": "s7LPoI1Jr",
+            "p": "LuSenlinTech/space/SunlitRoom_frags"
+        },
+        {
+            "i": "s7LPnd2Oy",
+            "p": "LuSenlinTech/space/Field_frags"
+        }
+    ],
+    "e": 1
+}

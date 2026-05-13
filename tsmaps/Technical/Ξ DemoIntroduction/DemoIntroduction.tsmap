@@ -1,0 +1,51 @@
+{
+    "key": "u5gguY01On  ",
+    "token": "Demointroduction",
+    "name": "DemoIntroduction",
+    "created": "2025-09-17T18:18:15.002Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-demo/tsmaps/Technical/Ξ DemoIntroduction/DemoIntroduction.tsmap",
+    "iText": "Link to 'DemoIntroduction'",
+    "iExits": [
+        {
+            "key": "1D3tHTQ00KW",
+            "text": "Next",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "u5gkFx00HL",
+        "nodes": [
+            {
+                "key": "u5gpCU01mT",
+                "order": 1,
+                "option": "Start the demo",
+                "iKey": "s7SMNM05c",
+                "nodes": [
+                    {
+                        "key": "1D3tGQE014f",
+                        "order": 1,
+                        "option": "Next",
+                        "iExitKey": "1D3t8oV00Hi",
+                        "exitKey": "1D3tHTQ00KW"
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-u5gkFx00HL",
+            "relativePath": "./δ steps/δ-u5gkFx00HL.tsstp"
+        },
+        {
+            "key": "δ-u5gpCU01mT",
+            "relativePath": "./δ steps/δ-u5gpCU01mT.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "1D3tIp200tf",
+        "editorID": "car_1a4fa5439ee44274b081fed2488c68a7",
+        "ticks": 1775513071804
+    }
+}

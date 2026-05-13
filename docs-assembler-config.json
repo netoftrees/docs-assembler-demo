@@ -1,0 +1,20 @@
+{
+    "organisation": "netoftrees",
+    "contact": "team@netoftrees.com",
+    "gitConfig": {
+        "owner": "netoftrees",
+        "repo": "docs-assembler-demo",
+        "branch": "main",
+        "publishUrl": "https://netoftrees.com/docs-assembler-demo/"
+    },
+    "repoConfig": {
+        "assetFolderName": "δ steps",
+        "variableFolderName": "Ω variables",
+        "publishFolderName": "pub",
+        "docsFolderName": "docs",
+        "mapsFolderName": "tsmaps"
+    },
+    "devConfig": {
+        "forceJsDelivr": false
+    }
+}
