@@ -16,7 +16,7 @@ The design of [Docs Assembler](https://marketplace.visualstudio.com/items?itemNa
 *   **Seamless Publishing:** It’s designed to publish directly to [GitHub Pages](https://docs.github.com/en/pages), a platform developers already understand. Even Liquid scripts embedded in your Markdown work as expected.
 *   **Built to Scale:** Like classes break down massive software systems, [Docs Assembler's](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) modules are designed to decompose enormous documentation sets into manageable, distributable units that different teams can own.
 *   **Engineering Rigour:** It brings true software tooling to docs, with IntelliSense for variables, full validation before publish, and automatic handling of relative URLs that are defined as variables. This ensures any local files referenced by these URL variables are automatically discovered and copied to the publish folder, preventing broken links and ensuring robustness.
-
+*   **Internationalisation by Design:** The guide/fragment model suits analytic languages (English, Chinese) where word forms stay constant. In high-inflection languages (Russian, Arabic), the same sub-guide might need different gender, case, or number depending on where it is called. Display tools intentionally assemble the full path before rendering or translating, so authors write plain Markdown, and grammar adapts at the edge.
 ### How It Works: The Building Blocks
 
 [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) introduces key concepts that leverage this philosophy:
