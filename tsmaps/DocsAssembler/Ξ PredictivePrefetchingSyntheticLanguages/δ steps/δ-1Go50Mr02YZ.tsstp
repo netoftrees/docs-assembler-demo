@@ -1,0 +1,14 @@
+## 7. Implementation Checklist for Display Tool Authors
+
+- [ ] Store fragments in a tree structure (guide) with parent/child relationships, keeping original source text.
+- [ ] On user navigation, compute the full source path by concatenating fragment texts (in the original language).
+- [ ] Call DeepSeek API with the appropriate prompt template (translation or rewriting)  -  full path as context, current fragment as new text.
+- [ ] Cache adaptations in Redis with key `hash(full_source_path):target_lang` (for translation) or `hash(full_source_path):same_lang` (for rewriting).
+- [ ] After serving a fragment, pre‑fetch all child fragments (parallel API calls, same caching).
+- [ ] Optionally use HTTP/103 Early Hints or `<link rel=preload>` to push adaptations to browser.
+- [ ] For mobile, implement stale‑while‑revalidate and offline storage (IndexedDB).
+- [ ] Add a glossary and style brief for domain‑specific terminology.
+- [ ] For safety‑critical guides, include a human‑verification workflow and never use AI output directly.
+
+---
+

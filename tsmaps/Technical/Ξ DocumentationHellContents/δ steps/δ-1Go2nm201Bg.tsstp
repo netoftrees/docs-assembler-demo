@@ -1,0 +1,10 @@
+### Keeping terminology consistent
+
+When guides are translated, domain‑specific terms can drift. A product glossary, maintained as a simple YAML file, maps terms such as “abort”, “run”, and “review” to approved translations per locale. The display tool passes this glossary to the translation engine so that “abort” always becomes *аварийно завершить* in Russian, not the generic synonym a machine might choose.
+
+### What this means for authors
+
+If you write in English or Chinese, you do not need to change your habits. Write naturally. The display tool handles the rest when your content is translated or when it is consumed by high‑inflection guides.
+
+If you write in Russian or Arabic, you also write plain Markdown. The display tool ensures that when your sub‑guides are called from different parent contexts, the grammar adapts to each context automatically. You do not need to maintain multiple copies of the same sub‑guide for different genders or cases.
+

@@ -1,0 +1,6 @@
+## 2. The Solution: Full‑Path Context + Predictive Pre‑fetching
+
+### 2.1 Core principle
+
+**Give DeepSeek the complete narrative history (in the source language) up to the current fragment.** The model then adapts the *new* fragment  -  either translating it from English or rewriting it to fit the required grammatical context  -  using the full context to resolve gender, tense, aspect, and idioms  -  without any manual state extraction.
+

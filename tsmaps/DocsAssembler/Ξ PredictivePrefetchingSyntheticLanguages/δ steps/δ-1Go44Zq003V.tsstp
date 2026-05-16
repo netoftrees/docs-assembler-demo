@@ -1,0 +1,19 @@
+### 2.2 Step‑by‑step flow
+
+1. **User selects a guide.**  
+   - The display tool sends the root fragment’s source text (no prior context) to DeepSeek.  
+   - Result is cached and displayed.
+
+2. **While the user reads the current fragment (5 - 30 seconds):**  
+   - The display tool identifies all child fragments from the current node.  
+   - For each child, it constructs the **full hypothetical source path**:  
+     `(root + ... + current + child)` source text.  
+   - It sends parallel adaptation requests to DeepSeek, each requesting adaptation of the *child fragment* only (the context is provided for continuity).  
+   - Each adapted result is cached with a key `hash(full_source_path) + target_language` (or same language if rewriting).
+
+3. **User clicks a child fragment.**  
+   - The adaptation is already in cache (server, CDN, or browser).  
+   - Display tool serves it in <10 ms.
+
+4. **Repeat**  -  after serving the new fragment, pre‑fetch its children.
+

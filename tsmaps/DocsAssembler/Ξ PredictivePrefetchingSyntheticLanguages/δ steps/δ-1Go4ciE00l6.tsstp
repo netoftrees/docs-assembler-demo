@@ -1,0 +1,19 @@
+### 3.2 Pre‑fetching implementation (pseudocode)
+
+```python
+async def on_fragment_rendered(fragment_id, full_source_path, source_lang, target_lang):
+    children = get_child_fragments(fragment_id)
+    tasks = []
+    for child in children:
+        child_path = full_source_path + child.source_text
+        cache_key = hash(child_path) + target_lang
+        if not cache.exists(cache_key):
+            tasks.append(adapt_async(child_path, child.source_text, source_lang, target_lang))
+    await asyncio.gather(*tasks)
+
+async def adapt_async(full_path, new_text, src_lang, tgt_lang):
+    prompt = build_prompt(full_path, new_text, src_lang, tgt_lang)
+    response = await deepseek_api.acreate(prompt)
+    cache.set(cache_key, response.adapted_text)
+```
+

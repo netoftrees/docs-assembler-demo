@@ -1,0 +1,12 @@
+## 4. Hallucination Risks and Mitigations
+
+### 4.1 What “hallucination” means in adaptation
+
+| Type | Example (English → Russian) | Likelihood (DeepSeek) |
+|------|----------------------------|------------------------|
+| Omission | Skipping a sentence or clause | <1% |
+| Addition | Inserting extra words | ~1 - 2% |
+| Distortion | Changing meaning (“click” → “hold”) | ~2 - 3% for technical text |
+| Gender/agreement error | Wrong verb form due to ambiguous referent | 5 - 10% if context unclear |
+| Idiom mistranslation | Literal translation of idiom | 5 - 15% for rare idioms |
+

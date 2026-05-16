@@ -1,0 +1,8 @@
+### 3.3 Mobile and slow networks
+
+- Use **stale‑while‑revalidate**: serve an older cached version while fetching a fresh one.
+- Pre‑fetch only critical children first; queue less likely branches.
+- Compress adaptations over the wire (gzip/brotli).
+
+---
+

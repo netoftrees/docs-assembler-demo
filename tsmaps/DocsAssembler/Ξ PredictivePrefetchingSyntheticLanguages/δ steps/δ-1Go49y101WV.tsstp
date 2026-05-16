@@ -1,0 +1,14 @@
+### 2.3 Why this works for all content
+
+| Challenge | How full‑path context solves it |
+|-----------|--------------------------------|
+| Gender of “the user” not specified in English | DeepSeek infers from prior mention (e.g., “Alice” → feminine). |
+| Native Russian fragment needs different case when reused | Full path shows the required grammatical role (e.g., nominative vs. accusative). |
+| Tense shifts across fragments | Full timeline gives correct past/present/future. |
+| Aspect choice (perfective/imperfective) | Model reads narrative flow and chooses appropriately. |
+| Idioms and fixed expressions | DeepSeek preserves or adjusts idioms correctly. |
+| Pronouns (“he”, “she”, “they”) | Resolved naturally from preceding text. |
+| Creative or literary style | Preserved because model adapts as a human would. |
+
+**No manual lexicon, no heuristics, no language‑specific code  -  works for any source language.**
+

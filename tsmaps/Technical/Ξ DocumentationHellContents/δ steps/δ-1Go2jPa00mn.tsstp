@@ -1,0 +1,10 @@
+### How Docs Assembler addresses this
+
+The authoring layer stays simple. Authors write plain Markdown with no special grammar markup. The complexity is pushed to the display tool, which now uses **full‑path context adaptation** – a modern, reliable method that does not require manual state extraction.
+
+When a user navigates a guide, the display tool concatenates the entire narrative history (from the root to the current fragment) in the **target language** (e.g., Russian) that has already been shown to the user. It then sends this context together with the new fragment (in the source language) to a high‑quality LLM such as DeepSeek, asking it to translate or rewrite the new fragment so that it matches the grammatical context of the previous text.
+
+This approach gives the AI the full narrative flow – it sees that the maternity guide established a female patient three steps ago, so when it reaches the patient preparation sub‑guide it applies the correct feminine agreement. When the same sub‑guide is called from a prostate cancer guide (male patient), the AI automatically switches to masculine forms. **No manual tracking of gender, number, or tense is required** – the LLM infers everything from the context.
+
+To make the experience feel instantaneous, the display tool pre‑fetches translations of all child fragments while the user reads the current page (predictive pre‑fetching). The result is that the next fragment appears in less than 10 ms after the user clicks.
+

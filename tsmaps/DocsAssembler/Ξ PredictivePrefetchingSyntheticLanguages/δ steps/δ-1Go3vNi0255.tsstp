@@ -1,0 +1,17 @@
+## 1. The Problem: Grammatical Context + Reuse + Latency
+
+A **guide** is a tree of **fragments** (short Markdown/HTML texts). Readers navigate by clicking from fragment to fragment. When the target language is synthetic, grammatical features depend on the entire narrative path. Two challenges arise:
+
+- **Translation from English**  -  English has little inflection, but Russian, Arabic, etc., require gender, case, number, tense, aspect that must be inferred from the path.
+- **Native authoring in a synthetic language**  -  A writer creates a fragment in Russian for one context (e.g., masculine singular formal). That same fragment, when reused in a different parent path (e.g., feminine plural informal), must change its inflections. Doing this manually defeats reusability.
+
+Traditional solutions:
+
+- **On‑the‑fly adaptation**  -  call an LLM for each fragment. Quality is high, but users wait 5 - 15 seconds per click.
+- **Deterministic state extraction**  -  manually track gender, number, etc. This fails for creative content, idiomatic expressions, and requires extensive language‑specific code.
+- **Pre‑adapt all paths**  -  impossible for large guides due to exponential growth.
+
+We need an approach that works for **any** English or synthetic source content, requires no language‑specific rules, hides latency, and is affordable.
+
+---
+

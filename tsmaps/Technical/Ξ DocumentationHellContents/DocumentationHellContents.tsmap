@@ -153,8 +153,47 @@
                                                                                         "key": "1GkSuqL01gq",
                                                                                         "order": 2,
                                                                                         "option": "How grammar adapts across languages",
-                                                                                        "isLeaf": true,
-                                                                                        "isAncillary": true
+                                                                                        "isAncillary": true,
+                                                                                        "nodes": [
+                                                                                            {
+                                                                                                "key": "1Go2VlA02AS",
+                                                                                                "order": 1,
+                                                                                                "nodes": [
+                                                                                                    {
+                                                                                                        "key": "1Go2dPf01dv",
+                                                                                                        "order": 1,
+                                                                                                        "nodes": [
+                                                                                                            {
+                                                                                                                "key": "1Go2jPa00mn",
+                                                                                                                "order": 1,
+                                                                                                                "nodes": [
+                                                                                                                    {
+                                                                                                                        "key": "1Go2nm201Bg",
+                                                                                                                        "order": 1,
+                                                                                                                        "nodes": [
+                                                                                                                            {
+                                                                                                                                "key": "1Go2rHw00RQ",
+                                                                                                                                "order": 1,
+                                                                                                                                "nodes": [
+                                                                                                                                    {
+                                                                                                                                        "key": "1Go2w050079",
+                                                                                                                                        "order": 1,
+                                                                                                                                        "option": "Predictive Pre‑fetching White Paper",
+                                                                                                                                        "isLeaf": true,
+                                                                                                                                        "isAncillary": true,
+                                                                                                                                        "iKey": "1Go3bTl00K6"
+                                                                                                                                    }
+                                                                                                                                ]
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
                                                                                     }
                                                                                 ]
                                                                             },
@@ -275,11 +314,35 @@
         {
             "key": "δ-1GkSuqL01gq",
             "relativePath": "./δ steps/δ-1GkSuqL01gq.tsstp"
+        },
+        {
+            "key": "δ-1Go2VlA02AS",
+            "relativePath": "./δ steps/δ-1Go2VlA02AS.tsstp"
+        },
+        {
+            "key": "δ-1Go2dPf01dv",
+            "relativePath": "./δ steps/δ-1Go2dPf01dv.tsstp"
+        },
+        {
+            "key": "δ-1Go2jPa00mn",
+            "relativePath": "./δ steps/δ-1Go2jPa00mn.tsstp"
+        },
+        {
+            "key": "δ-1Go2nm201Bg",
+            "relativePath": "./δ steps/δ-1Go2nm201Bg.tsstp"
+        },
+        {
+            "key": "δ-1Go2rHw00RQ",
+            "relativePath": "./δ steps/δ-1Go2rHw00RQ.tsstp"
+        },
+        {
+            "key": "δ-1Go2w050079",
+            "relativePath": "./δ steps/δ-1Go2w050079.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "1GkVs5l00Ao",
-        "editorID": "car_a0060c314b99470586a834f0dd1cfb31",
-        "ticks": 1778891268453
+        "id": "1Go5WGB00BZ",
+        "editorID": "car_be4c9433f2984a8e953643ee2071a1e1",
+        "ticks": 1778944093348
     }
 }

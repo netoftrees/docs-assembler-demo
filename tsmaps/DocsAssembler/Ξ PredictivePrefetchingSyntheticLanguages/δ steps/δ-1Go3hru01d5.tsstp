@@ -1,0 +1,10 @@
+## Abstract
+
+Guides assembled from reusable fragments (Markdown or HTML) often need to be presented in synthetic languages such as Russian, Arabic, Polish, or German. In these languages, grammatical features  -  gender, case, number, tense, aspect  -  depend on the full narrative path, not just the current fragment. The same sub‑guide may require different inflections when used in different parent contexts (e.g., a “patient preparation” step in a maternity ward vs. a prostate cancer ward).
+
+This white paper presents **predictive pre‑fetching with full‑path context**: the display tool sends the entire narrative history (root → current fragment) to DeepSeek, which then **adapts** (translates or rewrites) the new fragment naturally  -  without manual grammatical state extraction. While the user reads the current fragment, all child fragments are pre‑adapted in parallel. The result: perceived real‑time delivery (<10 ms after click) with DeepSeek‑level quality, for any content  -  whether translating from English or natively re‑using fragments already written in a synthetic language.
+
+A critical limitation is discussed: AI adaptation **must not be used autonomously for safety‑critical instructions** (satellite launches, medical devices). For such use cases, the system is a productivity aid for human expert translators or technical writers.
+
+---
+

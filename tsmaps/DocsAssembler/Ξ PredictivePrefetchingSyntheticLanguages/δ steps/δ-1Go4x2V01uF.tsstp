@@ -1,0 +1,12 @@
+## 6. Integration with the Display Tool Contract
+
+The companion `DISPLAY_TOOLS.md` defines the full contract, including:
+- Full‑path context as the recommended method.
+- Predictive pre‑fetching as required.
+- Hallucination risk table and safety disclaimer.
+- Glossary and style brief patterns.
+
+This white paper extends that contract by explicitly covering **native authoring in synthetic languages**  -  a crucial use case for teams writing directly in Russian, Arabic, Polish, etc., who need to reuse fragments across dramatically different grammatical contexts (e.g., maternity ward vs. prostate cancer ward documentation).
+
+---
+

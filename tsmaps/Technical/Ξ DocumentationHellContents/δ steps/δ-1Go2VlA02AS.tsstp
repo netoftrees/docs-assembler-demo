@@ -1,0 +1,12 @@
+#### The problem with reuse in high‑inflection languages
+
+Languages fall into two broad categories. **Analytic languages** such as English and Mandarin keep word forms largely constant. A verb like “review” stays “review” regardless of who performs it. **High‑inflection languages** such as Russian, Arabic, Polish, and Basque inflect words: verbs, adjectives, and pronouns change shape depending on gender, number, case, and tense.
+
+This becomes a problem when a guide reuses a sub‑guide written for one context in a completely different context.
+
+Imagine a medical documentation system. A Russian author writes a sub‑guide about patient preparation. It contains the sentence: “The patient should review the readings.” In Russian, every word connected to the patient must agree. If the patient is male, the verb is *должен*; if female, *должна*; if plural, *должны*. The adjective and any pronouns must also match.
+
+Now imagine this sub‑guide was originally written for a maternity ward where the default patient is female. A prostate cancer ward elsewhere in the tree calls the same sub‑guide. The patient is now male. The Russian text is wrong: it uses feminine agreement throughout. The sub‑guide cannot know its own grammatical context because that context is set by the parent guide that calls it.
+
+In English, this issue is invisible. “The patient should review their readings” works for any gender. An English author can reuse the sub‑guide freely without noticing any problem.
+

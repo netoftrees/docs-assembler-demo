@@ -2,45 +2,5 @@
 
 Docs Assembler separates writing from rendering. Authors produce plain Markdown files; display tools handle the complexity of presenting that content correctly. This separation matters most when the same content is reused across different contexts in languages where grammar changes with context.
 
-#### The problem with reuse in high-inflection languages
-
-Languages fall into two broad categories. **Analytic languages** such as English and Mandarin keep word forms largely constant. A verb like "review" stays "review" regardless of who performs it. **High-inflection languages** such as Russian, Arabic, Polish, and Basque inflect words: verbs, adjectives, and pronouns change shape depending on gender, number, case, and tense.
-
-This becomes a problem when a guide reuses a sub-guide written for one context in a completely different context.
-
-Imagine a medical documentation system. A Russian author writes a sub-guide about heart monitors. It contains the sentence: "The patient should review the readings." In Russian, every word connected to the patient must agree. If the patient is male, the verb is *должен*; if female, *должна*; if plural, *должны*. The adjective for "heart" and the possessive pronoun must also match.
-
-Now imagine this sub-guide was originally written for a cardiology ward where the default patient is male. A maternity ward elsewhere in the tree calls the same sub-guide. The patient is now female. The Russian text is wrong: it uses masculine agreement throughout. The sub-guide cannot know its own grammatical context because that context is set by the parent guide that calls it.
-
-In English, this issue is invisible. "The patient should review their readings" works for any gender. An English author can reuse the sub-guide freely without noticing any problem.
-
-#### The translation trap
-
-The same issue arises when an English guide is translated into Russian, Arabic, or Polish. English simply does not encode the information that these languages require. 
-
-Consider: "The administrator clicked the button. They saw an error." In English, "they" is neutral. A translator or AI must render this into Russian. The past tense verb "saw" must be masculine (*увидел*), feminine (*увидела*), or plural (*увидели*). The English source gives no signal. If the translator defaults to masculine, the result is grammatically correct but contextually wrong when the administrator is female.
-
-If the guide reuses a sub-map about error handling, that sub-map inherits the administrator's gender from a parent map written ten steps earlier. Translating the sub-map in isolation loses that inheritance chain.
-
-### How Docs Assembler addresses this
-
-The authoring layer stays simple. Authors write plain Markdown with no special grammar markup. The complexity is pushed to the display tool, which assembles the full path from the root of the guide to the current step before rendering or translating.
-
-This assembly gives the rendering engine complete narrative context. It sees that the maternity guide established a female patient three steps ago, so when it reaches the heart monitor sub-guide it applies the correct feminine agreement. It sees that the administrator in the parent path is female, so the error-handling sub-guide receives the correct gender for its pronouns and verbs.
-
-For high-inflection languages, the display tool carries a small state object (typically under 2 KB) that tracks active referents, their grammatical features, and the current discourse context. This state is posted with each navigation request so that every fragment is rendered with the correct grammatical context.
-
-### Keeping terminology consistent
-
-When guides are translated, domain-specific terms can drift. A product glossary, maintained as a simple YAML file, maps terms such as "abort", "run", and "review" to approved translations per locale. The display tool passes this glossary to the translation engine so that "abort" always becomes *аварийно завершить* in Russian, not the generic synonym a machine might choose.
-
-### What this means for authors
-
-If you write in English or Chinese, you do not need to change your habits. Write naturally. The display tool handles the rest when your content is translated or when it is consumed by high-inflection guides.
-
-If you write in Russian or Arabic, you also write plain Markdown. The display tool ensures that when your sub-guides are called from different parent contexts, the grammar adapts to each context automatically. You do not need to maintain multiple copies of the same sub-guide for different genders or cases.
-
-### Summary
-
-Docs Assembler treats grammar as a rendering concern, not an authoring burden. By assembling the full document path before display, the system preserves the grammatical context that high-inflection languages require. Authors write once, in plain Markdown, and the display tool adapts at the edges.
+> **Further reading:** For a detailed technical explanation of the recommended approach, see the [Predictive Pre‑fetching White Paper](./PREDICTIVE_PREFETCH_WHITEPAPER.md).
 

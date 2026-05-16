@@ -1,0 +1,35 @@
+### 2.4 Prompt templates
+
+#### For translation (English → synthetic language):
+
+```
+System: You are a professional translator. Translate the following English narrative to [target language].
+Preserve style, tone, idioms, and all grammatical relationships.
+
+Previous context (English):
+[Full English of root → parent fragments]
+
+New text to translate (English):
+[Current fragment English]
+
+Output ONLY the translation of the new text.
+```
+
+#### For native rewriting (synthetic source → same synthetic language, different context):
+
+```
+System: You are a professional technical writer. The following narrative is in [language]. Rewrite the last fragment so that it fits the grammatical context (gender, case, number, tense, aspect) of the previous narrative. Do not change the meaning or style.
+
+Previous context ([language]):
+[Full source text of root → parent fragments]
+
+New fragment to adapt ([language]):
+[Current fragment source text]
+
+Output ONLY the adapted version of the new fragment.
+```
+
+**Example:** A Russian sub‑guide written for a masculine singular formal context when reused in a feminine plural informal context  -  the AI will change verb endings, adjectives, and pronouns accordingly.
+
+---
+

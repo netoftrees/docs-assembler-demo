@@ -1,0 +1,10 @@
+## 3. Caching and Pre‑fetching Architecture
+
+### 3.1 Cache layers
+
+| Layer | Location | Purpose |
+|-------|----------|---------|
+| **Server cache** | Redis or in‑memory (128 GB typical) | Stores adaptations keyed by `hash(full_source_path):target_lang`. |
+| **CDN / edge cache** | Cloudflare, Fastly | Reduce latency for global users. |
+| **Browser cache** | `Cache API` or HTTP cache | Pre‑loaded via `rel=preload` or 103 Early Hints. |
+

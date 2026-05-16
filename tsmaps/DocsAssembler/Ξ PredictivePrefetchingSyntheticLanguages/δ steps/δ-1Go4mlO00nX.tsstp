@@ -1,0 +1,16 @@
+### 4.2 Estimated hallucination rates by content type
+
+| Content type | Visible error rate | Production acceptable? |
+|--------------|--------------------|------------------------|
+| Technical documentation (short, imperative) | 2 - 4% | ✅ Yes (with human review for critical steps) |
+| User guides with variable referents | 5 - 8% | ⚠️ Use as assistive tool |
+| Narratives, stories, film scripts | 10 - 15% | ❌ Not for final delivery without editing |
+
+### 4.3 Critical safety disclaimer
+
+> **For safety‑critical instructions (satellite launch procedures, medical device operation, nuclear facility control, aviation checklists, etc.):**
+>
+> - **Do not use AI‑only adaptation**  -  no LLM is reliable enough for autonomous use in such contexts. A single hallucination could be catastrophic.
+> - **Acceptable workflow:** Use the system as a **productivity aid for human expert translators or writers**. The AI produces a first draft; a qualified human (native speaker of the target language + domain expert) must verify and approve every instruction before use.
+> - **For extremely high‑stakes scenarios,** use formal verification (translation memory with 100% exact match from pre‑approved, human‑validated phrases) instead of generative AI.
+

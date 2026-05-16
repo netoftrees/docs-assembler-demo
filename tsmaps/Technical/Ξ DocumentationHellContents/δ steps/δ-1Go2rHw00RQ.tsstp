@@ -1,0 +1,4 @@
+### Summary
+
+Docs Assembler treats grammar as a rendering concern, not an authoring burden. By using full‑path context adaptation and predictive pre‑fetching, the system preserves the grammatical context that high‑inflection languages require. Authors write once, in plain Markdown, and the display tool adapts at the edges.
+

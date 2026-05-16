@@ -1,0 +1,8 @@
+#### The translation trap
+
+The same issue arises when an English guide is translated into Russian, Arabic, or Polish. English simply does not encode the information that these languages require.
+
+Consider: “The administrator clicked the button. They saw an error.” In English, “they” is neutral. A translator or AI must render this into Russian. The past tense verb “saw” must be masculine (*увидел*), feminine (*увидела*), or plural (*увидели*). The English source gives no signal. If the translator defaults to masculine, the result is grammatically correct but contextually wrong when the administrator is female.
+
+If the guide reuses a sub‑map about error handling, that sub‑map inherits the administrator’s gender from a parent map written ten steps earlier. Translating the sub‑map in isolation loses that inheritance chain.
+
