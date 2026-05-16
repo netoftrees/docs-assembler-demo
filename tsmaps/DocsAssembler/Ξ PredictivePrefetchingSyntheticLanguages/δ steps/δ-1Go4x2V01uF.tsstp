@@ -8,5 +8,3 @@ The companion `DISPLAY_TOOLS.md` defines the full contract, including:
 
 This white paper extends that contract by explicitly covering **native authoring in synthetic languages**  -  a crucial use case for teams writing directly in Russian, Arabic, Polish, etc., who need to reuse fragments across dramatically different grammatical contexts (e.g., maternity ward vs. prostate cancer ward documentation).
 
----
-

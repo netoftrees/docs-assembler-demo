@@ -6,5 +6,3 @@ This white paper presents **predictive pre‑fetching with full‑path context**
 
 A critical limitation is discussed: AI adaptation **must not be used autonomously for safety‑critical instructions** (satellite launches, medical devices). For such use cases, the system is a productivity aid for human expert translators or technical writers.
 
----
-

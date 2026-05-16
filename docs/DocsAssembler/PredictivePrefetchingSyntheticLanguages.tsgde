@@ -14,8 +14,6 @@ fragsFolderPath: DocsAssembler/PredictivePrefetchingSyntheticLanguages_frags
 **For Display Tool Authors**  
 *Target AI: DeepSeek API  -  high quality, low cost, large context window*
 
----
-
 ## Abstract
 
 Guides assembled from reusable fragments (Markdown or HTML) often need to be presented in synthetic languages such as Russian, Arabic, Polish, or German. In these languages, grammatical features  -  gender, case, number, tense, aspect  -  depend on the full narrative path, not just the current fragment. The same sub‑guide may require different inflections when used in different parent contexts (e.g., a “patient preparation” step in a maternity ward vs. a prostate cancer ward).
@@ -23,8 +21,6 @@ Guides assembled from reusable fragments (Markdown or HTML) often need to be pre
 This white paper presents **predictive pre‑fetching with full‑path context**: the display tool sends the entire narrative history (root → current fragment) to DeepSeek, which then **adapts** (translates or rewrites) the new fragment naturally  -  without manual grammatical state extraction. While the user reads the current fragment, all child fragments are pre‑adapted in parallel. The result: perceived real‑time delivery (<10 ms after click) with DeepSeek‑level quality, for any content  -  whether translating from English or natively re‑using fragments already written in a synthetic language.
 
 A critical limitation is discussed: AI adaptation **must not be used autonomously for safety‑critical instructions** (satellite launches, medical devices). For such use cases, the system is a productivity aid for human expert translators or technical writers.
-
----
 
 ## 1. The Problem: Grammatical Context + Reuse + Latency
 
@@ -40,8 +36,6 @@ Traditional solutions:
 - **Pre‑adapt all paths**  -  impossible for large guides due to exponential growth.
 
 We need an approach that works for **any** English or synthetic source content, requires no language‑specific rules, hides latency, and is affordable.
-
----
 
 ## 2. The Solution: Full‑Path Context + Predictive Pre‑fetching
 
@@ -115,8 +109,6 @@ Output ONLY the adapted version of the new fragment.
 
 **Example:** A Russian sub‑guide written for a masculine singular formal context when reused in a feminine plural informal context  -  the AI will change verb endings, adjectives, and pronouns accordingly.
 
----
-
 ## 3. Caching and Pre‑fetching Architecture
 
 ### 3.1 Cache layers
@@ -151,8 +143,6 @@ async def adapt_async(full_path, new_text, src_lang, tgt_lang):
 - Use **stale‑while‑revalidate**: serve an older cached version while fetching a fresh one.
 - Pre‑fetch only critical children first; queue less likely branches.
 - Compress adaptations over the wire (gzip/brotli).
-
----
 
 ## 4. Hallucination Risks and Mitigations
 
@@ -190,8 +180,6 @@ async def adapt_async(full_path, new_text, src_lang, tgt_lang):
 - **Confidence check**  -  use a small local NLI model to compare source and adapted text; if confidence low, re‑adapt or flag for human review.
 - **Human override**  -  allow locale‑specific `.tsfrg` files to replace AI adaptations for critical fragments.
 
----
-
 ## 5. Cost and Performance with DeepSeek
 
 - **Input cost:** $0.14 per million tokens.
@@ -202,8 +190,6 @@ async def adapt_async(full_path, new_text, src_lang, tgt_lang):
 
 **Latency:** API call takes 5 - 15 seconds, but hidden by user reading time. Cache hits are <10 ms.
 
----
-
 ## 6. Integration with the Display Tool Contract
 
 The companion `DISPLAY_TOOLS.md` defines the full contract, including:
@@ -213,8 +199,6 @@ The companion `DISPLAY_TOOLS.md` defines the full contract, including:
 - Glossary and style brief patterns.
 
 This white paper extends that contract by explicitly covering **native authoring in synthetic languages**  -  a crucial use case for teams writing directly in Russian, Arabic, Polish, etc., who need to reuse fragments across dramatically different grammatical contexts (e.g., maternity ward vs. prostate cancer ward documentation).
-
----
 
 ## 7. Implementation Checklist for Display Tool Authors
 
@@ -228,8 +212,6 @@ This white paper extends that contract by explicitly covering **native authoring
 - [ ] Add a glossary and style brief for domain‑specific terminology.
 - [ ] For safety‑critical guides, include a human‑verification workflow and never use AI output directly.
 
----
-
 ## 8. Conclusion
 
 Predictive pre‑fetching with full‑path context adaptation delivers **DeepSeek‑quality grammatical adaptation** for synthetic languages  -  whether translating from English or natively rewriting fragments to fit new contexts  -  at perceived real‑time speeds. The system works for any content, requires no language‑specific rules, and is affordable and easy to implement.
@@ -238,7 +220,7 @@ This approach solves the long‑standing problem of reusing fragments in highly 
 
 However, AI adaptation is not infallible. For mission‑critical instructions, this system is a **tool for human experts**, not an autonomous replacement. Used responsibly, it can dramatically reduce the cost and time of producing high‑quality multilingual and multicontext documentation.
 
----
+
 
 *This white paper is part of the Docs Assembler ecosystem. For questions or contributions, [**open an issue on the repository**](https://github.com/netoftrees/docs-assembler/issues).*
 

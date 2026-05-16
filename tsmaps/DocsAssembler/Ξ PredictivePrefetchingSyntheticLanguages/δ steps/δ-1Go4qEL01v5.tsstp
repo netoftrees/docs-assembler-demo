@@ -6,5 +6,3 @@
 - **Confidence check**  -  use a small local NLI model to compare source and adapted text; if confidence low, re‑adapt or flag for human review.
 - **Human override**  -  allow locale‑specific `.tsfrg` files to replace AI adaptations for critical fragments.
 
----
-

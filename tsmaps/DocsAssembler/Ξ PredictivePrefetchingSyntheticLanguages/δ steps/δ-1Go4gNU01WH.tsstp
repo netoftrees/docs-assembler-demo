@@ -4,5 +4,3 @@
 - Pre‑fetch only critical children first; queue less likely branches.
 - Compress adaptations over the wire (gzip/brotli).
 
----
-
