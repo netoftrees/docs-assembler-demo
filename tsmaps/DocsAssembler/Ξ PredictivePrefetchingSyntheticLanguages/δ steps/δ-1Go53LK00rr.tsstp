@@ -6,6 +6,7 @@ This approach solves the long‑standing problem of reusing fragments in highly 
 
 However, AI adaptation is not infallible. For mission‑critical instructions, this system is a **tool for human experts**, not an autonomous replacement. Used responsibly, it can dramatically reduce the cost and time of producing high‑quality multilingual and multicontext documentation.
 
+___
 
 
 *This white paper is part of the Docs Assembler ecosystem. For questions or contributions, [**open an issue on the repository**](https://github.com/netoftrees/docs-assembler/issues).*

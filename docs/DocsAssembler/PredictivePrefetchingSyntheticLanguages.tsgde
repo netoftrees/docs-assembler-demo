@@ -22,6 +22,8 @@ This white paper presents **predictive pre‑fetching with full‑path context**
 
 A critical limitation is discussed: AI adaptation **must not be used autonomously for safety‑critical instructions** (satellite launches, medical devices). For such use cases, the system is a productivity aid for human expert translators or technical writers.
 
+___
+
 ## 1. The Problem: Grammatical Context + Reuse + Latency
 
 A **guide** is a tree of **fragments** (short Markdown/HTML texts). Readers navigate by clicking from fragment to fragment. When the target language is synthetic, grammatical features depend on the entire narrative path. Two challenges arise:
@@ -36,6 +38,8 @@ Traditional solutions:
 - **Pre‑adapt all paths**  -  impossible for large guides due to exponential growth.
 
 We need an approach that works for **any** English or synthetic source content, requires no language‑specific rules, hides latency, and is affordable.
+
+___
 
 ## 2. The Solution: Full‑Path Context + Predictive Pre‑fetching
 
@@ -109,6 +113,8 @@ Output ONLY the adapted version of the new fragment.
 
 **Example:** A Russian sub‑guide written for a masculine singular formal context when reused in a feminine plural informal context  -  the AI will change verb endings, adjectives, and pronouns accordingly.
 
+___
+
 ## 3. Caching and Pre‑fetching Architecture
 
 ### 3.1 Cache layers
@@ -116,7 +122,7 @@ Output ONLY the adapted version of the new fragment.
 | Layer | Location | Purpose |
 |-------|----------|---------|
 | **Server cache** | Redis or in‑memory (128 GB typical) | Stores adaptations keyed by `hash(full_source_path):target_lang`. |
-| **CDN / edge cache** | Cloudflare, Fastly | Reduce latency for global users. |
+| **CDNU+00A0/U+00A0edgeU+00A0cache** | Cloudflare, Fastly | Reduce latency for global users. |
 | **Browser cache** | `Cache API` or HTTP cache | Pre‑loaded via `rel=preload` or 103 Early Hints. |
 
 ### 3.2 Pre‑fetching implementation (pseudocode)
@@ -143,6 +149,8 @@ async def adapt_async(full_path, new_text, src_lang, tgt_lang):
 - Use **stale‑while‑revalidate**: serve an older cached version while fetching a fresh one.
 - Pre‑fetch only critical children first; queue less likely branches.
 - Compress adaptations over the wire (gzip/brotli).
+
+___
 
 ## 4. Hallucination Risks and Mitigations
 
@@ -180,6 +188,8 @@ async def adapt_async(full_path, new_text, src_lang, tgt_lang):
 - **Confidence check**  -  use a small local NLI model to compare source and adapted text; if confidence low, re‑adapt or flag for human review.
 - **Human override**  -  allow locale‑specific `.tsfrg` files to replace AI adaptations for critical fragments.
 
+___
+
 ## 5. Cost and Performance with DeepSeek
 
 - **Input cost:** $0.14 per million tokens.
@@ -190,6 +200,8 @@ async def adapt_async(full_path, new_text, src_lang, tgt_lang):
 
 **Latency:** API call takes 5 - 15 seconds, but hidden by user reading time. Cache hits are <10 ms.
 
+___
+
 ## 6. Integration with the Display Tool Contract
 
 The companion `DISPLAY_TOOLS.md` defines the full contract, including:
@@ -199,6 +211,8 @@ The companion `DISPLAY_TOOLS.md` defines the full contract, including:
 - Glossary and style brief patterns.
 
 This white paper extends that contract by explicitly covering **native authoring in synthetic languages**  -  a crucial use case for teams writing directly in Russian, Arabic, Polish, etc., who need to reuse fragments across dramatically different grammatical contexts (e.g., maternity ward vs. prostate cancer ward documentation).
+
+___
 
 ## 7. Implementation Checklist for Display Tool Authors
 
@@ -212,6 +226,8 @@ This white paper extends that contract by explicitly covering **native authoring
 - [ ] Add a glossary and style brief for domain‑specific terminology.
 - [ ] For safety‑critical guides, include a human‑verification workflow and never use AI output directly.
 
+___
+
 ## 8. Conclusion
 
 Predictive pre‑fetching with full‑path context adaptation delivers **DeepSeek‑quality grammatical adaptation** for synthetic languages  -  whether translating from English or natively rewriting fragments to fit new contexts  -  at perceived real‑time speeds. The system works for any content, requires no language‑specific rules, and is affordable and easy to implement.
@@ -220,6 +236,7 @@ This approach solves the long‑standing problem of reusing fragments in highly 
 
 However, AI adaptation is not infallible. For mission‑critical instructions, this system is a **tool for human experts**, not an autonomous replacement. Used responsibly, it can dramatically reduce the cost and time of producing high‑quality multilingual and multicontext documentation.
 
+___
 
 
 *This white paper is part of the Docs Assembler ecosystem. For questions or contributions, [**open an issue on the repository**](https://github.com/netoftrees/docs-assembler/issues).*
