@@ -2,5 +2,3 @@
 
 Docs Assembler separates writing from rendering. Authors produce plain Markdown files; display tools handle the complexity of presenting that content correctly. This separation matters most when the same content is reused across different contexts in languages where grammar changes with context.
 
-> **Further reading:** For a detailed technical explanation of the recommended approach, see the [Predictive Pre‑fetching White Paper](./PREDICTIVE_PREFETCH_WHITEPAPER.md).
-

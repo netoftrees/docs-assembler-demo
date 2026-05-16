@@ -10,8 +10,6 @@ permalink: /Technical/DocumentationHellContents_frags/1GkSuqL01gq.html
 
 Docs Assembler separates writing from rendering. Authors produce plain Markdown files; display tools handle the complexity of presenting that content correctly. This separation matters most when the same content is reused across different contexts in languages where grammar changes with context.
 
-> **Further reading:** For a detailed technical explanation of the recommended approach, see the [Predictive Pre‑fetching White Paper](./PREDICTIVE_PREFETCH_WHITEPAPER.md).
-
 #### The problem with reuse in high‑inflection languages
 
 Languages fall into two broad categories. **Analytic languages** such as English and Mandarin keep word forms largely constant. A verb like “review” stays “review” regardless of who performs it. **High‑inflection languages** such as Russian, Arabic, Polish, and Basque inflect words: verbs, adjectives, and pronouns change shape depending on gender, number, case, and tense.
